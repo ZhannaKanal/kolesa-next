@@ -1,3 +1,7 @@
 export default function Main() {
-  return <div>new</div>;
+  return <div>
+    <HotHeaderClearfix></HotHeaderClearfix>
+  </div>;
 }
+
+import HotHeaderClearfix from "./HotHeaderClearfix";
