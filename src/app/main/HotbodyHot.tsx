@@ -1,7 +1,3 @@
 export default function HotBodyHot() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div></div>;
 }

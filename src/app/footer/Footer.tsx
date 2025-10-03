@@ -3,20 +3,44 @@ export default function Footer() {
     <div className="bg-[#f2f2f3] py-[24px] text-[#888b94] text-[13px]">
       <div className="max-w-[1164px] w-full mx-auto">
         <div className="mt-[8px] mb-[24px] ">
-          <img className="w-[100px]" src="https://kolesa.kz/static/frontend/images/kolesa-logo-new.svg" alt="kolesa.kz" />
+          <img
+            className="w-[100px]"
+            src="https://kolesa.kz/static/frontend/images/kolesa-logo-new.svg"
+            alt="kolesa.kz"
+          />
         </div>
         <div className="flex justify-between">
           <ul className="max-w-[267px] w-full">
-            <li className="mb-[12px]"> <a href="">О компании «Kolesa Group»</a></li>
-            <li className="mb-[12px]"> <a href="">Написать в Службу заботы</a></li>
-            <li className="mb-[12px]"> <a href="">Работа в «Kolesa Group»</a></li>
-            <li className=""> <a href="">Карта сайта</a></li>
+            <li className="mb-[12px]">
+              {" "}
+              <a href="">О компании «Kolesa Group»</a>
+            </li>
+            <li className="mb-[12px]">
+              {" "}
+              <a href="">Написать в Службу заботы</a>
+            </li>
+            <li className="mb-[12px]">
+              {" "}
+              <a href="">Работа в «Kolesa Group»</a>
+            </li>
+            <li className="">
+              {" "}
+              <a href="">Карта сайта</a>
+            </li>
           </ul>
           <ul className="max-w-[267px] w-full">
-            <li className="mb-[12px]"><a href="">Рекламодателям</a></li>
-            <li className="mb-[12px]"><a href="">Правила размещения объявлений</a></li>
-            <li className="mb-[12px]"><a href="">Пользовательское соглашение</a></li>
-            <li className=""><a href="">Политика конфиденциальности</a></li>
+            <li className="mb-[12px]">
+              <a href="">Рекламодателям</a>
+            </li>
+            <li className="mb-[12px]">
+              <a href="">Правила размещения объявлений</a>
+            </li>
+            <li className="mb-[12px]">
+              <a href="">Пользовательское соглашение</a>
+            </li>
+            <li className="">
+              <a href="">Политика конфиденциальности</a>
+            </li>
           </ul>
           <ul className="max-w-[267px] w-full">
             <li className="mb-[12px]">

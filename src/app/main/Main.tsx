@@ -1,9 +1,11 @@
 export default function Main() {
-  return <div>
-    <HotHeaderClearfix></HotHeaderClearfix>
-    <HotBodyHot></HotBodyHot>
-    <AddNew></AddNew>
-  </div>;
+  return (
+    <div>
+      <HotHeaderClearfix></HotHeaderClearfix>
+      <HotBodyHot></HotBodyHot>
+      <AddNew></AddNew>
+    </div>
+  );
 }
 
 import HotHeaderClearfix from "./HotHeaderClearfix";
