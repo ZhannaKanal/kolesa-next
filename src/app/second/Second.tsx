@@ -4,7 +4,10 @@ export default function Second() {
         <Reader></Reader>
         <Reader></Reader>
         <Reader></Reader>
+
+        <NewReader></NewReader>
         
     </div>
 }
 import Reader from "./Reader"
+import NewReader from "./NewReader"
