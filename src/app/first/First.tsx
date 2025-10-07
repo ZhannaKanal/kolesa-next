@@ -1,9 +1,12 @@
 export default function First() {
   return (
     <div className="px-[16px]">
+   
       <CarsBlock></CarsBlock>
       <SparePartBlock></SparePartBlock>
-      <RegionLink></RegionLink>
+          <RegionLink></RegionLink>
+          <SparePartBlock></SparePartBlock>
+          <SparePartBlock></SparePartBlock>
       <RegionLink></RegionLink>
       <RegionLink></RegionLink>
       <PartnersLink></PartnersLink>
