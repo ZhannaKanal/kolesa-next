@@ -1,10 +1,12 @@
 export default function CarsBlock() {
-    return <div>
-         <LinkBlockHeaderArrow></LinkBlockHeaderArrow>
-        <SectionLink></SectionLink>
-        <CrossLink></CrossLink>
+  return (
+    <div className="block">
+      <LinkBlockHeaderArrow></LinkBlockHeaderArrow>
+      <LinkBlockList></LinkBlockList>
+      <CrossLink></CrossLink>
     </div>
+  );
 }
-import SectionLink from "./SectionLink"
-import CrossLink from "./CrossLink"
-import LinkBlockHeaderArrow from "./LinkBlockHeaderArrow"
+import LinkBlockList from "./LinkBlockList";
+import CrossLink from "./CrossLink";
+import LinkBlockHeaderArrow from "./LinkBlockHeaderArrow";

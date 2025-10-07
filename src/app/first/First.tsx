@@ -12,5 +12,3 @@ export default function First() {
 import PartnersLink from "./PartnersLink";
 import RegionLink from "./RegionLink";
 import CarsBlock from "./CarsBlock";
-import LinkBlockHeaderArrow from "./LinkBlockHeaderArrow";
-import SectionLink from "./SectionLink";
