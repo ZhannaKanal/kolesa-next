@@ -1,6 +1,6 @@
 export default function LinkBlockHeaderArrow() {
   return (
-    <div className="links-block-header clearfix arrow-show flex ">
+    <div className="links-block-header clearfix arrow-show flex mt-[10px]">
       <h2 className="header-links text-[16px] font-bold">
         Выбор автомобиля по марке
       </h2>
