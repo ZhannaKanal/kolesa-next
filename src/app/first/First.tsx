@@ -2,6 +2,7 @@ export default function First() {
   return (
     <div className="px-[16px]">
       <CarsBlock></CarsBlock>
+      <SparePartBlock></SparePartBlock>
       <RegionLink></RegionLink>
       <RegionLink></RegionLink>
       <RegionLink></RegionLink>
@@ -12,3 +13,4 @@ export default function First() {
 import PartnersLink from "./PartnersLink";
 import RegionLink from "./RegionLink";
 import CarsBlock from "./CarsBlock";
+import SparePartBlock from "./SparePartBlock";
